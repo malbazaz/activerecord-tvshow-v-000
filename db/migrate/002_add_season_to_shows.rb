@@ -1,7 +1,7 @@
-class AddSeasonToShows < ActiveRecord::Migration[5.1]
+class AddSeasonToShows < ActiveRecord::Migration
 
-def change 
+def change
   add column_name :shows, :season, integer
-end 
+end
 
 end
